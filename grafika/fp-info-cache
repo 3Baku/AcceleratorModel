@@ -1,0 +1,533 @@
+133854073871305
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-S-RA_1x02-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-S-V_1x02-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-SH-L_1x02-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-SV-L_1x02-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-S-RA_1x03-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-S-V_1x03-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-SH-L_1x03-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-SV-L_1x03-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-S-RA_1x04-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-S-V_1x04-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-SH-L_1x04-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-SV-L_1x04-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-S-RA_1x05-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-S-V_1x05-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-SH-L_1x05-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-SV-L_1x05-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-S-RA_1x06-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-S-V_1x06-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-SH-L_1x06-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-SV-L_1x06-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-S-RA_1x07-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-S-V_1x07-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-SH-L_1x07-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-SV-L_1x07-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-S-RA_1x08-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-S-V_1x08-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-SH-L_1x08-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-SV-L_1x08-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-S-RA_1x09-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-S-V_1x09-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-SH-L_1x09-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-SV-L_1x09-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-S-RA_1x10-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-S-V_1x10-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-SH-L_1x10-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-SV-L_1x10-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-S-RA_1x11-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-S-V_1x11-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-SH-L_1x11-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-SV-L_1x11-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-S-RA_1x12-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-S-V_1x12-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-SH-L_1x12-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-SV-L_1x12-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-S-RA_1x13-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-S-V_1x13-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-SH-L_1x13-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-SV-L_1x13-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-S-RA_1x14-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-S-V_1x14-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-SH-L_1x14-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-SV-L_1x14-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-S-RA_1x15-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-S-V_1x15-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-SH-L_1x15-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-SV-L_1x15-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-S-RA_1x16-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-S-V_1x16-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-SH-L_1x16-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-SV-L_1x16-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-S-RA_1x17-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-S-V_1x17-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-SH-L_1x17-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-SV-L_1x17-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-S-RA_1x18-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-S-V_1x18-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-SH-L_1x18-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-SV-L_1x18-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-S-RA_1x19-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-S-V_1x19-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-SH-L_1x19-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-SV-L_1x19-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-S-RA_1x20-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-S-V_1x20-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-SH-L_1x20-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-SV-L_1x20-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
