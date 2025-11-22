@@ -1,9 +1,3 @@
-/*
-XIAO C3 reading of time between laser-photoresistor key opening. 
-getAverageVoltage - function to average a number of measurements for accurate resault
-setup - function to turn on the laser and photoresistors management
-
-*/
 #include <WiFi.h>
 #include "wifipass.h"
 #include <WebServer.h>
@@ -11,12 +5,12 @@ setup - function to turn on the laser and photoresistors management
 WebServer server(80);
 
 const short numberOfMeasurements = 100;
-const float onOffAspectRatio = 0.5; //how much of calibrated V is considered open circuit
+const float onOffAspectRatio = 0.5;  //how much of calibrated V is considered open circuit
 const float radius = 5; //in cm
 const float mass = 1; //in grams
 const float circumference = 2*radius*3.1415;
-const int laserPin = D9; // IO19
-const int photoPin = D2; // IO2
+const int laserPin = D9; 
+const int photoPin = D2;
 
 bool calibration = 1;
 bool showPlot = 0;
@@ -34,20 +28,34 @@ float calibratedVoltages = 0;
 bool isEvenReading = 0; //used, because two measurenments per one circle
 
 float velocityArray[numberOfMeasurements] = {0.0};
-unsigned long durationArray[numberOfMeasurements] = {0.0};
-float avgVelocity = 0.0;
+unsigned long durationArray[numberOfMeasurements] = {0}; 
 
+// --- JSON GENERATORS ---
+
+// Simple Array for first plot [v1, v2, v3]
 String get_array_string() {
   String json = "[";
-  
-  for (int i = 0; i < numberOfMeasurements; i++) {
+  for (int i = 0; i < velocityIndex; i++) {
     json += String(velocityArray[i]);
-    if (i < numberOfMeasurements-1) 
-        json += ",";
+    if (i < velocityIndex - 1) json += ",";
   }
-  
   json += "]";
-  return json; // Returns: "[12.1,10.5,0.0,...]"
+  return json; 
+}
+
+// V,t object Array for plot 2: [{x:0, y:10}, {x:50, y:12}]
+String get_xy_data_string() {
+  String json = "[";
+  for (int i = 0; i < velocityIndex; i++) {
+    json += "{x:";
+    json += String(durationArray[i]);
+    json += ",y:";
+    json += String(velocityArray[i]);
+    json += "}";
+    if (i < velocityIndex - 1) json += ",";
+  }
+  json += "]";
+  return json;
 }
 
 float get_average_voltage(int pin, int numOfMeasurements) {
@@ -58,45 +66,43 @@ float get_average_voltage(int pin, int numOfMeasurements) {
   return ((float)totalValue / numOfMeasurements) * (3.3 / 4095.0);
 }
 
-
 void calibrate_sensor(){
-  calibratedVoltages =  get_average_voltage(photoPin, 10);
-  Serial.print("--- CALIBRATION DONE, Baseline: ");
+  calibratedVoltages = get_average_voltage(photoPin, 10);
+  Serial.print("--- CALIBRATION DONE: ");
   Serial.println(calibratedVoltages);
 }
 
 unsigned long calculate_duration(){
   currentMillis = millis();    
   duration_tmp = currentMillis - lastChangeTime;
-  Serial.print("Time ON: ");
-  Serial.print(duration_tmp);
-  Serial.println(" ms");
   return duration_tmp;
 }
 
 float calculate_velocity(){
+  if(duration == 0) return 0; 
   return circumference/(duration/1000.0);
 }
+
+
 float calc_avg_velocity(){
-  float avgVelocity = 0;
-  static unsigned short i = 0;
-  while((i < numberOfMeasurements) & ((velocityArray[i] != 0.0) & (velocityArray[i+1] != 0.0))) {
-    avgVelocity += velocityArray[i];
-    i++;
+  float sum = 0;
+  if (velocityIndex == 0) return 0.0;
+  
+  for(int i = 0; i < velocityIndex; i++) {
+    sum += velocityArray[i];
   }
-  return avgVelocity/i;
-}
-float calc_avg_ekin(avgVelocity){
-  return avgVelocity*avgVelocity*mass / 2;
+  return sum / velocityIndex;
 }
 
+float calc_avg_ekin(float avgVel){
+  return 0.05 * mass * avgVel * avgVel;
+}
 
 void setup() {
   Serial.begin(115200);
   pinMode(laserPin, OUTPUT);
-  digitalWrite(laserPin, HIGH); // Laser ON for calibration
+  digitalWrite(laserPin, HIGH); 
   pinMode(photoPin, INPUT);
-
   connect_to_Wifi();
   server_setup();
 }
@@ -109,27 +115,27 @@ void loop() {
     calibration = 0;   
     currentState = 0;
     velocityIndex = 0;
-
+    for(int i=0; i<numberOfMeasurements; i++) {
+       velocityArray[i] = 0; 
+       durationArray[i] = 0;
+    }
   }
   
   float voltage = get_average_voltage(photoPin, 5);
   
-  //opened circuit
-  if(voltage * onOffAspectRatio> calibratedVoltages){
-    lastState = currentState; currentState = 1;}
-  else{
-    lastState = currentState;currentState = 0;}
- //   Serial.println("my state is");
-  //  Serial.println(voltage);
-   // Serial.println("Being % of calibrated");
-   // Serial.println(calibratedVoltages/voltage);
+  // Open circuit
+  if(voltage * onOffAspectRatio > calibratedVoltages){
+    lastState = currentState;
+    currentState = 1;
+  } else {
+    lastState = currentState;
+    currentState = 0;
+  }
 
-  if(!lastState & currentState){
+  if(!lastState && currentState){
     if (velocityIndex < numberOfMeasurements) {
 
-
       if(isEvenReading){
-        //velocity = calculate_velocity();
         duration = calculate_duration();
         lastChangeTime = currentMillis;
         isEvenReading = 0;
@@ -137,20 +143,20 @@ void loop() {
       else{
         duration += calculate_duration();
         lastChangeTime = currentMillis;
-        durationArray[velocityIndex] = (velocityIndex == 0) ? duration : (durationArray[velocityIndex-1] + duration);
+        
+        unsigned long prevTime = (velocityIndex == 0) ? 0 : durationArray[velocityIndex-1];
+        durationArray[velocityIndex] = prevTime + duration;
+        
         velocityArray[velocityIndex] = calculate_velocity();
-        Serial.println("A new velocity has been saved");
+        Serial.println("New velocity saved");
         velocityIndex++;
         isEvenReading = 1;
       }
       
     } else {
-        Serial.println("Memory Full!"); velocityIndex = 0;
+        // Serial.println("Memory Full!"); 
     }
     lastState = currentState;
-  //  currentState = 0;
   }
-
-
-  delay(1); 
+  
 }

@@ -4,6 +4,7 @@ void connect_to_Wifi() {
     Serial.println(SSID_NAME);
 
     WiFi.begin(SSID_NAME, WIFI_PASS);
+    WiFi.setSleep(false);
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
         Serial.print(".");

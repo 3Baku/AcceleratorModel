@@ -1,7 +1,6 @@
 #ifndef WEBPAGE_H
 #define WEBPAGE_H
 
-
 static const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html>
@@ -13,26 +12,32 @@ static const char index_html[] PROGMEM = R"rawliteral(
   <style>
     body { font-family: -apple-system, sans-serif; text-align: center; margin: 0; padding: 20px; background-color: #f0f2f5; }
     .card { background: white; max-width: 600px; margin: 0 auto 20px auto; padding: 20px; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-    
     .chart-box { position: relative; height: 300px; width: 100%; }
     .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-
     .btn { border: none; color: white; padding: 20px 0; font-size: 16px; font-weight: bold; border-radius: 12px; cursor: pointer; width: 100%; touch-action: manipulation; }
-    
-    /* Button Colors */
-    .btn-calib { background-color: #009688; } /* Teal */
-    .btn-plot { background-color: #673AB7; }  /* Purple */
-    
-    .btn:active { transform: scale(0.98); opacity: 0.9; }
+    .btn-calib { background-color: #009688; } 
+    .btn-plot { background-color: #673AB7; }
+    .stats-box { font-size: 1.2rem; color: #333; text-align: left; line-height: 1.6; }
+    .val { font-weight: bold; color: #673AB7; }
     a { text-decoration: none; }
   </style>
 </head>
 <body>
 
   <div class="card">
-    <h2>Velocity Data</h2>
-    <div class="chart-box">
-      <canvas id="myChart"></canvas>
+    <h2>Velocity vs Measurement</h2>
+    <div class="chart-box"><canvas id="indexChart"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2>Velocity vs Time</h2>
+    <div class="chart-box"><canvas id="timeChart"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2>Statistics</h2>
+    <div class="stats-box">
+      %STATS_HTML%
     </div>
   </div>
 
@@ -40,46 +45,59 @@ static const char index_html[] PROGMEM = R"rawliteral(
     <h2>Controls</h2>
     <div class="btn-grid">
         %BUTTON_1%
-
         %BUTTON_2%
     </div>
   </div>
 
   <script>
-    const ctx = document.getElementById('myChart');
-    
-    // C++ injects either [] (empty) or [10, 20, 30] (data)
-    const rawData = %DATA_ARRAY%; 
+    // 1. Setup Data
+    const rawData = %DATA_ARRAY%; // [10, 12, ...]
+    const timeData = %XY_DATA%;   // [{x:0, y:10}, {x:50, y:12}...]
 
-    // If data exists, make labels 1,2,3... If empty, no labels.
-    const labels = rawData.length > 0 ? rawData.map((_, i) => i + 1) : [];
-
-    new Chart(ctx, {
+    // 2. Chart 1: Index
+    new Chart(document.getElementById('indexChart'), {
       type: 'line',
       data: {
-        labels: labels,
+        labels: rawData.map((_, i) => i + 1),
         datasets: [{
-          label: 'Velocity',
+          label: 'Velocity (cm/s)',
           data: rawData,
-          borderColor: '#673AB7', // Purple line
+          borderColor: '#673AB7',
           backgroundColor: 'rgba(103, 58, 183, 0.2)',
-          fill: true,
-          tension: 0.3
+          fill: true, tension: 0.3
         }]
       },
       options: { 
-        animation: false,
-        maintainAspectRatio: false, 
-        responsive: true,
+        animation: false, maintainAspectRatio: false, responsive: true,
         scales: {
-          y: { beginAtZero: true, suggestedMax: 50 } // Keeps the grid looking nice even when empty
+          x: { title: { display: true, text: 'Measurement #' } },
+          y: { title: { display: true, text: 'Velocity (cm/s)' }, beginAtZero: true }
+        }
+      }
+    });
+
+    // 3. Chart 2: Time
+    new Chart(document.getElementById('timeChart'), {
+      type: 'line',
+      data: {
+        datasets: [{
+          label: 'Velocity over Time',
+          data: timeData,
+          borderColor: '#009688',
+          backgroundColor: 'rgba(0, 150, 136, 0.2)',
+          fill: true, tension: 0.3
+        }]
+      },
+      options: { 
+        animation: false, maintainAspectRatio: false, responsive: true,
+        scales: {
+          x: { type: 'linear', title: { display: true, text: 'Time (ms)' } },
+          y: { title: { display: true, text: 'Velocity (cm/s)' }, beginAtZero: true }
         }
       }
     });
   </script>
-
 </body>
 </html>
 )rawliteral";
-
 #endif
