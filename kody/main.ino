@@ -5,9 +5,9 @@
 WebServer server(80);
 
 const short numberOfMeasurements = 100;
-const float onOffAspectRatio = 0.5;  //how much of calibrated V is considered open circuit
-const float radius = 5; //in cm
-const float mass = 1; //in grams
+const float onOffAspectRatio = 0.8;  //how much of calibrated V is considered open circuit
+const float radius = 6.5; //in cm
+const float mass = 2.74; //in grams
 const float circumference = 2*radius*3.1415;
 const int laserPin = D9; 
 const int photoPin = D2;
