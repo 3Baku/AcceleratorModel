@@ -1,7 +1,15 @@
 # AcceleratorModel
-Firstly Arduino Uno was to be used, but after a while ESP32 was chosen for it's ability to connect to wifi.
+## WAŻNY KOMENTARZ
+Do dnia 25.11.2025 repozytorium nadal jest w przebudowie i część inforacji w README może być nieaktualnych.
 
-Targeted setup is shown in Scheme.png.
+### Zamysł projektu
+W tym repozytorium znajduje się wszystko potrzebne do stworzenia układu pomiaru prędkości (i średniej energii kinetycznej) dla modelu akceleratora bazującego na kulce ping-pongowej, salaterce i maszynie elektrostatycznej przedstawianego na warszatach podczas 2. Warszawskiej Konferencji Nauczycieli Fizyki (22.11.2025).
 
+### Opis folderów
+W folderze 'grafika' znajdują się pliki do programu KiCad 9.0 dzięki którym można wczytać schemat i edytowa go dowolnie. Na jego podstawie jest wygenerowany główny obraz.png w main,
+W folderze 'kody' znajduje się kod używany do poprawnego działania układu pomiarowego (który to poprzez np. Arduino IDE należy przesłać do Xiao C3 ESP32), 
+W folderze 'zdjęcia' można zobaczyć zbudowany układ pomairowy.
 
-The workflow is avaible on trello: https://trello.com/invite/690b59f3337a24bc919835e7/ATTI3dcc991222d39f49209c4482a137cdca4784C6E5
+### Konwencje repozytorium
+Wiadomości w commitach, schematy, oraz kod wraz z komentarzami do niego pisane są w języku angielskim,
+Opisy pomocnicze oraz wymagania konstrukcyjne pisane są w języku polskim.
