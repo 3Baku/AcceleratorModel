@@ -1,9 +1,11 @@
 # Akcelerator w salaterce — wersja rozszerzona
 
 ## Krótkie omówienie
-Model "Akceleratora w salaterce" został wzbogacony o specjalne komponenty, które pozwoliły zamienić go na domowej roboty układ doświadczalny. Miskę będącą główną częścią akceleratora umieszczono w zbudowanej z klocków LEGO ramce z wydłużonymi szynami. Przyczepiono na nich z jednej strony laser, którego wiązka światła padała na umieszczony z drugiej strony fotorezystor. Pośrodku stała salaterka. Taki układ pozwolił na odczytywanie momentu, w którym kulka przecinała wiązkę. W ten sposób za pośrednictwem specjalnie napisanego kodu można było odczytać czas, po jakim kulka zrobi okrążenie, a znając promień, po jakim się porusza, można wyznaczyć prędkość. Po dokonaniu pomiaru masy kulki (niezbędna do tego będzie precyzyjna waga np. cukiernicza) możliwe jest obliczenie energii kinetycznej tego obiektu.
+Model "Akceleratora w salaterce" został wzbogacony o specjalne komponenty, które pozwoliły zamienić go na domowej roboty układ doświadczalny. Miskę będącą główną częścią akceleratora umieszczono w zbudowanej z klocków LEGO ramce z wydłużonymi szynami. Przyczepiono na nich z jednej strony laser, którego wiązka światła padała na umieszczony z drugiej strony fotorezystor. Pośrodku stała salaterka. Całkowita długość konstrukcji wyniosła około 69 cm. Taki układ pozwolił na odczytywanie momentu, w którym kulka przecinała wiązkę. W ten sposób za pośrednictwem specjalnie napisanego kodu można było odczytać czas, po jakim kulka zrobi okrążenie, a znając promień, po jakim się porusza, można wyznaczyć prędkość. Po dokonaniu pomiaru masy kulki (niezbędna do tego będzie precyzyjna waga np. cukiernicza) możliwe jest obliczenie energii kinetycznej tego obiektu.
 
-Wszystkie poniżej wymienione materiały oraz parametry odnoszą się do układu przedstawionego na grafice, który prezentowany był na II Warszawskiej Konferencji Nauczycieli Fizyki.
+Do skonstruowania elektronicznej części układu została użyta lutownica wraz z cyną. Odpowiednie komponenty elektroniczne zostały połączone własnoręcznie. Większość z nich została zakupiona z sklepu internetowego botland.
+
+Wszystkie poniżej wymienione materiały oraz parametry odnoszą się do układu przedstawionego na zdjęciu, który prezentowany był na II Warszawskiej Konferencji Nauczycieli Fizyki.
 ## Spis materiałów do podstawowej wersji akceleratora
 * Miska typu salaterka (najlepiej z płaskim dnem)
 * Taśma miedziana (można znaleźć jako "na ślimaki") [1]
@@ -13,7 +15,15 @@ Wszystkie poniżej wymienione materiały oraz parametry odnoszą się do układu
 * Spray grafitowy [2]
 ## Spis materiałów do rozszerzonej wersji — pomiar prędkości
 * Przewód zasilający sterowanie
-* Dioda laserowa [3]
+* Dioda laserowa 3–5V 5mW czerwona 650nm [3]
+* Fotorezystor 100–200k (można dobrać mniejszy) [4]
+* Tranzystor NMOS 2N7000 [5]
+* Mikrokontroler Xiao ESP32-C3 [6]
+* Płytka drukowana do lutowania (opcjonalnie można stworzyć projekt PCB na podstawie pliku KiCad [7]
+* Rezystory: jeden 10k, oraz jeden 1k
+* Lutownica
+* Cyna lutownicza Sn60Pb40
+* Przewody do łączenia oczek
 
 ## Parametry niezbędne do obliczeń
 * Masa - 2,74 g
@@ -29,3 +39,13 @@ Wszystkie poniżej wymienione materiały oraz parametry odnoszą się do układu
 [2] [Spray grafitowy](https://allegro.pl/produkt/farba-przewodzaca-grafitowa-spray-400ml-antystatyczna-ekranujaca-uziemienie-96ab1be1-56a6-4b00-8113-e29869f06b20?srsltid=AfmBOoqWYREXO5kPRHeK8RJEhdIrDtdgziN-W43G7vBF5jUqVc2xdKFs&offerId=16966271625)
 
 [3] [Dioda laserowa](https://botland.com.pl/diody-laserowe/6450-dioda-laserowa-5mw-czerwona-650nm-5v-5904422359782.html?fbclid=IwY2xjawORoTJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeU0MX-_L_6ckLLX5QRtH2c6XSK5l_QpNnZLTN1bODtjs-2byMYA6vUx8hx94_aem_6dgLEy4zyfoWA5QvmAFC8A)
+
+[4] [Fotorezystor](https://elektronika-sklep.pl/optoelektronika/fotoelementy/fotorezystory/fotorezystor-5mm-100-200k/?fbclid=IwY2xjawORqNhleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeG1kzohAH_HdGkt7z82fvCJQmGnMkdrB9Mw_BGysIL0F0G1z1QGHBzc2wwVo_aem_mB-4tn0mwwQVgGLDJ65VEQ)
+
+[5] [Tranzystor](https://elektronika-sklep.pl/polprzewodniki/tranzystory/tranzystory-unipolarne/tranzystory-z-kanaem-typu-n/2n7000/?fbclid=IwY2xjawORqcJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeKaQe5YZHMRHeTbCblmyZBrIzwe_R7SG2qjjHs19iOXayLYYCJ6gyZxevm3w_aem_jJXRZwPsxqHWLMGNbZ7itg)
+
+[6] [Mikrokontroler](https://botland.com.pl/moduly-wifi-i-bt-esp32/21859-seeed-xiao-esp32-c3-wifibluetooth-seeedstudio-113991054.html)
+
+[7] [Płytka drukowana do lutowania](l.messenger.com/l.php?u=https%3A%2F%2Fbotland.com.pl%2Fplytki-uniwersalne%2F2744-plytka-drukowana-uniwersalna-dwustronna-40x60mm-5904422303297.html&h=AT0iM1pIM4rylPPTv-ln3OiRvIT1WWi_INN2hKSjnTGUCpENc7v5Qc4CKn1a4ZpNlS-LD7xwWBBMzHVcvjrNCfumq-jdFOZivjr0glafdcMqE_LVTLSooL7hBR4sf2ZCY3R-NQ)
+
+
