@@ -1,7 +1,4 @@
 # AcceleratorModel
-## WAŻNY KOMENTARZ
-Do dnia 25.11.2025 repozytorium jest w przebudowie i część inforacji w README może być nieaktualnych. Uczestników Konferencji prosi się o poczekanie przed próbą zagłębiania się w schematy oraz kupowaniem elementów — dokładna ich lista będzie zamieszczona już niedługo. 
-
 ### Zamysł projektu
 W tym repozytorium znajduje się wszystko potrzebne do stworzenia układu pomiaru prędkości (i średniej energii kinetycznej) dla modelu akceleratora bazującego na kulce ping-pongowej, salaterce i maszynie elektrostatycznej przedstawianego na warszatach podczas 2. Warszawskiej Konferencji Nauczycieli Fizyki (22.11.2025).
 
