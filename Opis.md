@@ -21,7 +21,7 @@ Wszystkie poniżej wymienione materiały oraz parametry odnoszą się do układu
 
 ## Zdjęcie układu doświadczalnego
 
-![This is an alt text.]("zdjecia/KonferencjaUklad.jpg")
+![This is an alt text.]("/zdjecia/KonferencjaUklad.jpg")
 ## Linki
 
 [1] [Taśma miedziana](https://allegro.pl/oferta/tasma-miedziana-na-slimaki-odstraszajaca-samoprzylepna-20m-x-25mm-miedz-18013162639?offerId=18013162639&inventoryUnitId=tKgWyfx69Kv0hC4Y1aRx4A&adGroupId=MGM3YjRiNWItN2MwOS00M2FjLTk2YjEtNjk5YjcxOTdhYTlkAA&campaignId=ZmFmODMyM2UtMmZjYi00MWNmLWJmOWQtYTU4NmZkMzhjOGNmAA&clientId=MTYwMzk1MTEA&sig=fe25231b496d8baed176a4169332f38e&utm_feed=cba59b59-8d0f-48d0-98a0-e9d1127523e2&utm_source=google&utm_medium=ads&gad_source=1&gad_campaignid=23234234590&gbraid=0AAAAArAVsh0dIph2UBz0bEM25EgHUYLKB&gclid=Cj0KCQiAoZDJBhC0ARIsAERP-F8FK1X1yBE7Qjkvz_VeEo6FoYsYiZYtjOtQbuMNHZRtRups1mWAWOQaAginEALw_wcB&dd_referrer=https%3A%2F%2Fwww.google.com%2F)
