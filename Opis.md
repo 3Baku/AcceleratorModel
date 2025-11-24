@@ -21,7 +21,7 @@ Wszystkie poniżej wymienione materiały oraz parametry odnoszą się do układu
 
 ## Zdjęcie układu doświadczalnego
 
-![This is an alt text.](/image/Zdjęcia/2317c750-254c-4f5d-969f-3a3192062928.jpg")
+![This is an alt text.](/Zdjęcia/2317c750-254c-4f5d-969f-3a3192062928.jpg")
 
 ## Linki
 
